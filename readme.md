@@ -15,3 +15,11 @@ certain commands and where to initate those commands in said directories can not
 
 React and React Native have different requirements and are designed for different purposes.
 
+4. Authentication issues
+@ldo/solid-react library redirects you to an "acceptable use policy page" in pivot, but does not redirect you back to your local server.
+@inrupt/solid-client-authn-browser also stops at the  "acceptable use policy page" in pivot as well without redirect back to the localserver. 
+However, the statement "import { authn, authSession } from "solid-logic";" Which is found in the profile-pane, seems to work.
+
+But the profile-panes import { context, fetcher } from "./context";
+import { authn, authSession } from "solid-logic"; I am assuming, redirects you just fine. Is anyone experiencing this?
+
