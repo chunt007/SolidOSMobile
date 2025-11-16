@@ -2,24 +2,19 @@ Welcome to SolidOS for mobile
 
 Project timeline
 
-1. Expo Go and Android are currently working and being utilized.
+1. Framework Migration for Native Applications
+Due to incapability issues of between frameworks and mobile application environments that utilize native support, an official framework has not been chosen.
+React and React Native have different requirements and are designed for slightly different purposes. There are ways to use Polyfill techniques to force
+compatibility.
 
-2. Outdated libraries and depreciated command lines. 
+3. Outdated libraries and depreciated command lines. 
 In the process of creating a truly seamless mobile experience, there have been several issues such as tutorials both old and new.
 certain commands and where to initate those commands in said directories can not always be held as the programming gospal.
 
-3. Progress
-   We will be using React Native and Expo GO. Unfortunately a lot of the libraries I have found from Solid app design are designed to work exclusively with React.
-   This requires a translation or a conversation of some type. In the future, it is possible that we may have to design entire libraries
-   that translate, serialize, convert, etc to mobile development environments.
+3. Authentication issues
+*TBC
 
-React and React Native have different requirements and are designed for different purposes.
-
-4. Authentication issues
-@ldo/solid-react library redirects you to an "acceptable use policy page" in pivot, but does not redirect you back to your local server.
-@inrupt/solid-client-authn-browser also stops at the  "acceptable use policy page" in pivot as well without redirect back to the localserver. 
-However, the statement "import { authn, authSession } from "solid-logic";" Which is found in the profile-pane, seems to work.
-
-But the profile-panes import { context, fetcher } from "./context";
-import { authn, authSession } from "solid-logic"; I am assuming, redirects you just fine. Is anyone experiencing this?
+4. Progress
+There will be at least one pull request per day regarding this application. Thanks to innovations in ChatGPT and widespread use of various libraries in the Github community.
+Ideas for code fixability and revision are necessary. 
 
