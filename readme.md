@@ -23,3 +23,9 @@ certain commands and where to initate those commands in said directories can not
 There will be at least one pull request per day regarding this application. Thanks to innovations in ChatGPT and widespread use of various libraries in the Github community.
 Ideas for code fixability and revision are necessary. 
 
+
+Why SolidOS Mobile?
+
+The mobile experience is dominating the desktop/laptop user experience by wide margins and with good reason. 
+There does exist a mobile layout option for nearly every website, but these websites depend on the browser to store these sessions.
+It always helps to have many of your components and server files load locally and render. This helps free up depending on Software as a Service architecture
