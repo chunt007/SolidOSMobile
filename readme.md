@@ -1,3 +1,8 @@
+<img width="366" height="714" alt="Screenshot 2025-11-17 210843" src="https://github.com/user-attachments/assets/e4a0ee18-c503-479d-9115-d55d69b1c9ee" />
+<img width="373" height="714" alt="Screenshot 2025-11-17 210217" src="https://github.com/user-attachments/assets/75158d5b-c3ba-41c9-ba01-ae02a6391805" />
+
+
+
 Welcome to SolidOS for mobile
 
 Project timeline
