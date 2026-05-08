@@ -16,7 +16,11 @@ Coming soon for Apple IPhone.
 
 This is an early prototype of what's to come. Many may ask why SolidOS needs an application and to that, many mobile applications probably don't need an application.
 
-Be sure to change export const SOLID_POD_FOLDER_URL = "https://yourname.solidcommunity.net/"; inside of solidClient.ts to get the folder listing.
+But running tons of tabs inside of a browser is not idle and eats your ram. With SolidOS for mobile, you can upload and send files remotely.
+
+Make sure you login into your pod provider first before you attempt to delete or upload any files. Solidcommunity.net seems to work well with this application. 
+
+Be sure to change export const SOLID_POD_FOLDER_URL = "https://yourname.solidcommunity.net/"; inside of solidClient.ts to get the turtle folder listing.
 
 Be sure to change export const SOLID_FOLDER_URL = "https://yourname.solidcommunity.net/profile/"; to your name. As of now, you can upload from your android device using a file picker and the file should upload. You can also delete files as long as you are logged in. Unless you are attempting to delete files from the root, it will not work at this time.
 
